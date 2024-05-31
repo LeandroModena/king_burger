@@ -28,6 +28,8 @@ class SignInViewModel {
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             self.state = .error("Usuário não existe")
             
+            
+            
         }
     }
     
