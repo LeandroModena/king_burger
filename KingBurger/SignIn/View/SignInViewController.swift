@@ -8,11 +8,7 @@
 import Foundation
 import UIKit
 
-class SignInViewController: UIViewController, SignInViewModelDelegate {
-    
-    func viewModelDidChange(viewModel: SignInViewModel) {
-        print("OnChange state ->  \(viewModel.state)")
-    }
+class SignInViewController: UIViewController {
     
     var viewModel: SignInViewModel? {
         didSet {
@@ -89,4 +85,10 @@ class SignInViewController: UIViewController, SignInViewModelDelegate {
         viewModel?.send()
     }
     
+}
+
+extension SignInViewController: SignInViewModelDelegate{
+    func viewModelDidChange(viewModel: SignInViewModel) {
+        print("OnChange state ->  \(viewModel.state)")
+    }
 }

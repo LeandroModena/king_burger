@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		047855282C09146E00D2963B /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047855272C09146E00D2963B /* SignInViewModel.swift */; };
 		0478552A2C09224500D2963B /* SignInState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047855292C09224500D2963B /* SignInState.swift */; };
-		0478552E2C0A337D00D2963B /* MyTest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478552D2C0A337D00D2963B /* MyTest2.swift */; };
 		047CBCC62BF7C09E002D243C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CBCC52BF7C09E002D243C /* SignInViewController.swift */; };
 		04D5B3732BE9D3B80061F144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5B3722BE9D3B80061F144 /* AppDelegate.swift */; };
 		04D5B3752BE9D3B80061F144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5B3742BE9D3B80061F144 /* SceneDelegate.swift */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		047855272C09146E00D2963B /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		047855292C09224500D2963B /* SignInState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInState.swift; sourceTree = "<group>"; };
-		0478552D2C0A337D00D2963B /* MyTest2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTest2.swift; sourceTree = "<group>"; };
 		047CBCC52BF7C09E002D243C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		04D5B36F2BE9D3B80061F144 /* KingBurger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingBurger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5B3722BE9D3B80061F144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +44,6 @@
 			children = (
 				047855272C09146E00D2963B /* SignInViewModel.swift */,
 				047855292C09224500D2963B /* SignInState.swift */,
-				0478552D2C0A337D00D2963B /* MyTest2.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -172,7 +169,6 @@
 				04D5B3732BE9D3B80061F144 /* AppDelegate.swift in Sources */,
 				04D5B3752BE9D3B80061F144 /* SceneDelegate.swift in Sources */,
 				0478552A2C09224500D2963B /* SignInState.swift in Sources */,
-				0478552E2C0A337D00D2963B /* MyTest2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
