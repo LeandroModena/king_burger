@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047855282C09146E00D2963B /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047855272C09146E00D2963B /* SignInViewModel.swift */; };
+		0478552A2C09224500D2963B /* SignInState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047855292C09224500D2963B /* SignInState.swift */; };
+		047CBCC62BF7C09E002D243C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CBCC52BF7C09E002D243C /* SignInViewController.swift */; };
 		04D5B3732BE9D3B80061F144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5B3722BE9D3B80061F144 /* AppDelegate.swift */; };
 		04D5B3752BE9D3B80061F144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5B3742BE9D3B80061F144 /* SceneDelegate.swift */; };
-		04D5B3772BE9D3B80061F144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D5B3762BE9D3B80061F144 /* ViewController.swift */; };
-		04D5B37A2BE9D3B90061F144 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 04D5B3792BE9D3B90061F144 /* Base */; };
 		04D5B37C2BE9D3BB0061F144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D5B37B2BE9D3BB0061F144 /* Assets.xcassets */; };
 		04D5B37F2BE9D3BB0061F144 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 04D5B37E2BE9D3BB0061F144 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		047855272C09146E00D2963B /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		047855292C09224500D2963B /* SignInState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInState.swift; sourceTree = "<group>"; };
+		047CBCC52BF7C09E002D243C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		04D5B36F2BE9D3B80061F144 /* KingBurger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingBurger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D5B3722BE9D3B80061F144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D5B3742BE9D3B80061F144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04D5B3762BE9D3B80061F144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04D5B3792BE9D3B90061F144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D5B37B2BE9D3BB0061F144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D5B37E2BE9D3BB0061F144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D5B3802BE9D3BB0061F144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +39,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047855262C09144900D2963B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				047855272C09146E00D2963B /* SignInViewModel.swift */,
+				047855292C09224500D2963B /* SignInState.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		047CBCC32BF7BFBF002D243C /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				047855262C09144900D2963B /* ViewModel */,
+				047CBCC42BF7BFDA002D243C /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		047CBCC42BF7BFDA002D243C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				047CBCC52BF7C09E002D243C /* SignInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04D5B3662BE9D3B80061F144 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +84,9 @@
 		04D5B3712BE9D3B80061F144 /* KingBurger */ = {
 			isa = PBXGroup;
 			children = (
+				047CBCC32BF7BFBF002D243C /* SignIn */,
 				04D5B3722BE9D3B80061F144 /* AppDelegate.swift */,
 				04D5B3742BE9D3B80061F144 /* SceneDelegate.swift */,
-				04D5B3762BE9D3B80061F144 /* ViewController.swift */,
-				04D5B3782BE9D3B90061F144 /* Main.storyboard */,
 				04D5B37B2BE9D3BB0061F144 /* Assets.xcassets */,
 				04D5B37D2BE9D3BB0061F144 /* LaunchScreen.storyboard */,
 				04D5B3802BE9D3BB0061F144 /* Info.plist */,
@@ -127,7 +154,6 @@
 			files = (
 				04D5B37C2BE9D3BB0061F144 /* Assets.xcassets in Resources */,
 				04D5B37F2BE9D3BB0061F144 /* Base in Resources */,
-				04D5B37A2BE9D3B90061F144 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D5B3772BE9D3B80061F144 /* ViewController.swift in Sources */,
+				047855282C09146E00D2963B /* SignInViewModel.swift in Sources */,
+				047CBCC62BF7C09E002D243C /* SignInViewController.swift in Sources */,
 				04D5B3732BE9D3B80061F144 /* AppDelegate.swift in Sources */,
 				04D5B3752BE9D3B80061F144 /* SceneDelegate.swift in Sources */,
+				0478552A2C09224500D2963B /* SignInState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04D5B3782BE9D3B90061F144 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04D5B3792BE9D3B90061F144 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04D5B37D2BE9D3BB0061F144 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +316,6 @@
 				INFOPLIST_FILE = KingBurger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +342,6 @@
 				INFOPLIST_FILE = KingBurger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
